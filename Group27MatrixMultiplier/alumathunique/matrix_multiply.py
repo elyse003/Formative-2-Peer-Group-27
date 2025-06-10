@@ -1,6 +1,6 @@
 """
-Matrix Operations Module
-Handles matrix multiplication with personality and humor!
+Matrix Multiply Module
+Handles matrix multiplication
 """
 
 import random
@@ -102,7 +102,7 @@ class MatrixMultiplier:
             f"   • Problem: Matrix A has {matrix1_dims[1]} columns, but Matrix B has {matrix2_dims[0]} rows\n"
             f"   • For multiplication A×B, columns of A must equal rows of B!\n"
             f"\nSuggestion: Try transposing one of your matrices or check your data.\n"
-            f"   (Blocked by: {chosen_member.title()} from ALU Math Vanguard)"
+            f"   (Blocked by: {chosen_member.title()} from ALU Math Unique)\n"
         )
 
         return detailed_error
